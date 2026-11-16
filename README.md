@@ -25,7 +25,7 @@ Para quem prefere o formato tradicional, o botão **Currículo** abre o portfól
 - TypeScript + [Vite](https://vitejs.dev/)
 - Toda a arte (tiles, móveis, árvores e personagens) é **gerada por código**, pixel a pixel, sem arquivos de imagem
 - Interface (etiquetas, painéis, diálogos) em HTML/CSS sobre o canvas
-- Deploy automático no GitHub Pages via GitHub Actions
+- Publicado no GitHub Pages (branch `gh-pages`)
 
 ## Rodando localmente
 
@@ -33,6 +33,7 @@ Para quem prefere o formato tradicional, o botão **Currículo** abre o portfól
 npm install
 npm run dev     # http://localhost:3000
 npm run build   # gera a pasta dist/
+npm run deploy  # publica o site no GitHub Pages
 ```
 
 ## Estrutura
